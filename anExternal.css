@@ -1,0 +1,47 @@
+/* Our CSS Document */
+
+body {
+    background-color: lightslategray
+}
+
+.myImage {
+    height: 500px;
+    width: 800px;
+}
+
+#myMeme {
+    width: 100%;
+    height: auto;
+    margin: 20px;
+}
+
+#memeContainer {
+    position: relative;
+}
+
+#memeText {
+    Left: 50%;
+    text-shadow: 5px 5px 5px gold;
+    border-style: dotted;
+    border-width: thin;
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100px;
+    color: blue
+}
+
+#floatedImage {
+    float: right;
+    background: burlywood;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    border-radius: 25px;
+}
+
+#floatImage {
+    width: 150px;
+}
