@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Transformers Job Application</title>
+</head>
+<body>
+    <div="mainContent">
+        <h1>Transformers Job Application</h1>
+        <p>If you are interested in saving the world, please fill out this job application.</p>
+        <p>You will have opportunities to have Optimus Prime as your mentor!</p>
+        <div class = "formClass">
+            <form name="input" action="https://formspree.io/mgeaqkal" method="post">
+                <fieldset> 
+                    <legend>Your Basic Information</legend>
+                    <br/>
+                    <label>Full name: <input type="text" name="full name"></label><br/><br/>
+                    <label>Email: <input type="email" name="_replyto"></label><br/><br/>
+                    <label>What is your species? </label><br/>
+                    <input type="radio" name="species" value="Human"> Human <br/>
+                    <input type="radio" name="species" value="Autobots"> Autobots <br/>
+                    <input type="radio" name="species" value="Decepticons"> Decepticons (Really?) <br/>
+                    <input type="radio" name="species" value="Unknown"> Unknown <br/><br/>
+
+                    <label>Which planet are you from?</label><br/><br/>
+                    <select name="planets"> <option value="Earth">Earth</option> <option value="Cybertron">Cybertron</option> <option value="Paradron">Paradron</option> <option value="Gigantion">Gigantion</option> <option value="Other">Other</option> </select> <br/><br/>
+                    <br/>
+                </fieldset>
+
+                <br/>
+
+                <fieldset>
+                    <legend>Please Write Your Essage Here</legend>
+                        <br/>
+                        <label>Please tell us why you want to save the world? What makes you the strongest "person" in the world?</label> <br/><br/>
+                        <textarea name="essay">Please enter your text here</textarea> <br/><br/>
+                </fieldset>
+
+                <br/>
+                
+                <fieldset>
+                    <legend>More Information About You</legend>
+                    <br/>
+                    <label>What can you do? </label><br/>
+                    <input type="checkbox" name="skills" value="Fighter">I can fight with other people <br/> 
+                    <input type="checkbox" name="skills" value="Genius">I am smart AF <br/>
+                    <input type="checkbox" name="skills" value="learner">I can learn things quickly <br/><br/>
+
+                    <label>What kind of weapon would you like ot use?</label>
+                    <select name = "weaponPreference">
+                        <optgroup label="Swords">
+                            <option value="Laser Sword">Laser Sword</option>
+                            <option value="Diamond Sword">Diamond Sword</option>
+                          </optgroup>
+                          <optgroup label="Guns">
+                            <option value="Laser Gun">Laser Gun</option>
+                            <option value="Machine Gun">Machine Gun</option>
+                        </optgroup>
+                    </select>
+                    <br/>
+                    <br/>
+                    
+                    <label>Please select the amount of money you wanna earn in million dollars (each year)</label>
+                    <label>(50 million is your basic wage)</label>
+                    <br/>
+                    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+                        0<input type="range" id="a" value="50">100
+                        +<input type="number" id="b" value="50">
+                        =<output name="wage" for="a b"></output>
+                    </form>
+        
+
+                </fieldset>
+
+                <br/>
+
+                <input type="submit" value="Send">
+            </form>
+
+            
+        </div>
+
+    </div>
+</body>
+</html>
